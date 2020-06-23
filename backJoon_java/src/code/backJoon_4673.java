@@ -19,9 +19,9 @@ public class backJoon_4673 {
 		}
 		all_set.removeAll(generate_set);
 		
-		Iterator hi = all_set.iterator();
-        while(hi.hasNext()){
-            System.out.println(hi.next());
+		Iterator result = all_set.iterator();
+        while(result.hasNext()){
+            System.out.println(result.next());
         }
 	}
 }
