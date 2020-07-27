@@ -10,13 +10,13 @@ public class backJoon_1978 {
 		int result = n;
 		for(int i=0; i<n; i++){
 			int temp = scan.nextInt();
-				if(temp==1) result--;
-				for(int j=2;j<temp;j++){
-					if(temp%j==0){
-						result--;
-						break;
-					}
+			if(temp==1) result--;
+			for(int j=2;j<temp;j++){
+				if(temp%j==0){
+					result--;
+					break;
 				}
+			}
 		}
 		System.out.println(result);
 		scan.close();
